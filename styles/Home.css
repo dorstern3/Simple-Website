@@ -7,9 +7,7 @@
 .navbar{
     height: 50px;
      width: 100%;
-     background: blue;
- 
-    
+     background: blue;  
 }
 
 /* 1 */
@@ -23,20 +21,22 @@ main{
 }
 /* 2 */
 .countainer{
-    width: 1500px;
+    width: 90%;
     height: auto;
     margin: auto; 
-    border: 2px solid black;
-    position: relative;   
+    position: relative;
+    padding-top: 30px;   
 }
 /* 3 */
 .box_h1{
-    width: 45%;
+    width: 40%;
     height: auto;
-    background: rgba(255, 255, 255, 0.137);
-    margin-top: 100px;
     color: white;
-      
+    padding-left: 20px;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .box_h1 h1{
@@ -59,17 +59,35 @@ letter-spacing: 2px;
   
 }
 
+.box_h1 .btn{
+    width: 180px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+    background: orange;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.5s linear;  
+}
 
+.box_h1 .btn a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s linear;   
+}
 
+.box_h1 .btn:hover{
+    background-color:white ;
+    
+}
 
-
-
-
-
-
-
-
-
+.box_h1 .btn a:hover{
+    color: black;
+    font-size: 25px; 
+}
 
 
 /* 3 */
@@ -78,7 +96,8 @@ letter-spacing: 2px;
     width:250px;
     height:400px;
     border: 2px solid black;
-    left: 1000px;
+    left: 800px;
+    top: 200px;
     
     
 }

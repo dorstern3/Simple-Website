@@ -5,7 +5,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.navbar{
+header{
     height: 50px;
      width: 100%;
      background: blue;  
@@ -190,19 +190,6 @@ letter-spacing: 2px;
     font-size: 20px;
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

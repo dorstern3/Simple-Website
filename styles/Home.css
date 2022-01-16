@@ -15,18 +15,20 @@
 main{
     width: 100%;
     height: 120vh;
-    background:linear-gradient(rgba(0,0,0,0.4),50%,rgba(0, 0, 0, 0.4)50%),url(../images/5.jpg);
+    background:linear-gradient(rgba(0,0,0,0.4),50%,rgba(0, 0, 0, 0.4)50%),url(../images/6.jpg);
     background-size:cover;
     background-size:center;
 
 }
 /* 2 */
 .countainer{
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: auto; 
-    position: relative;
-    padding-top: 30px;   
+    display: flex;
+    justify-content: space-between;
+    /* padding-top: 20px;   */
+    /* border: 10px solid green;  */
 }
 /* 3 */
 .box_h1{
@@ -34,10 +36,11 @@ main{
     height: auto;
     color: white;
     padding-left: 20px;
-    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    /* background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%); */
     border-radius: 15px;
     padding: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    /* border: 3px solid orange; */
+    /* margin-left: 10px; */
 }
 
 .box_h1 h1{
@@ -96,14 +99,16 @@ letter-spacing: 2px;
 
 /* 3 */
 .box_form{
-    position: absolute;
-    width:250px;
-    height:inherit;
-    left: 1000px;
-    bottom: 180px;
+    width:20%;
+    height: 420px;
     background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     border-radius: 15px;
     padding: 25px;
+    border: 3px solid orange;
+    position: fixed;
+    right: 30px; 
+    top:50px; 
+    margin-top: 20px;
    
 }
 
@@ -117,7 +122,7 @@ letter-spacing: 2px;
 }
 
 .box_form input{
-   width: 200px;
+   width: 100%;
    height: 35px;
    background: transparent;
    border-bottom:1px solid orange ;
@@ -128,6 +133,7 @@ letter-spacing: 2px;
    font-size: 15px;
    letter-spacing: 1px;
    margin-top: 30px;
+   text-align: start;
 }
 
 .box_form input:focus{
@@ -139,7 +145,7 @@ letter-spacing: 2px;
 }
 
 .box_form .btn{
-    width: 200px;
+    width: 100%;
     height: 40px;
     background: orange;
     margin-top: 30px;
@@ -147,8 +153,8 @@ letter-spacing: 2px;
     border: none;
     font-size: 20px;
     cursor: pointer;
-
     transition: 0.5s linear;
+    text-align: center;
 
 }
 
@@ -170,13 +176,19 @@ letter-spacing: 2px;
     padding-top: 20px;
     color: white; 
     letter-spacing: 1px; 
-    line-height:30px; 
+    line-height:40px; 
     
 }
 
 .box_form p a{
     text-decoration: none;
     color: orange;
+}
+
+.box_form p a:hover{
+    transition: 0.8s linear;
+    font-size: 20px;
+    
 }
 
 

@@ -29,42 +29,58 @@ main{
 }
 
 .box_h1{
-    border: 2px green solid;
-    margin-bottom: 30px;
+    margin-top: 30px;
+    /* border: 2px green solid; */
+    margin-bottom: 50px;
 }
 
 .box_h1 h1{
     text-align: center;
-    color: orange;
-    background:white;
-    border-radius: 20px;
     width: 600px;
-    padding: 10px;
     margin: auto;
     font-size: 40px;
+    background: orange;
+    border-radius:15px;
+    padding: 10px;
+    color: black;
+    transition: 0.5s linear;
 }
 
+
 .box_form{
-    border: 2px green solid;
+    /* border: 2px green solid; */
     text-align: center;
     letter-spacing: 1px;
+   
 }
 
 .box_form h1{
+    width: 100%;
     color: orange;
     margin-bottom: 20px;
+    padding: 10px;
+    margin-bottom: 30px;
     
+}
+
+.border{
+    width: 30%;
+    margin: auto;
+    border: 3px solid orange;
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    padding: 20px;
+    border-radius: 15px;
 }
 
 .box_input{
     margin: auto;
     width: 300px;
-    border: 2px rgb(230, 16, 16) solid;
+    /* border: 2px rgb(230, 16, 16) solid; */
 }
 
 .box_form input{
     margin: 10px;
-    font-size: 20px;
+    font-size:18px;
     outline: none;
     border: 1px solid orange;
     border-top: none;
@@ -72,7 +88,7 @@ main{
     border-right: none;
     letter-spacing: 1px;
     color: white;
-    width: 100%;
+    width: 90%;;
     background: none;
 }
 
@@ -81,17 +97,50 @@ main{
     color: white;
 }
 
+.box_input button{
+ background: orange;
+ border: none;
+ width: 100%;
+ padding: 10px;
+ font-size: 25px;
+ border-radius: 10px;
+ margin-bottom: 20px;
+ margin-top: 20px;
+ font-weight: bold;
+ cursor: pointer;
+ transition: 0.5s linear;
+ height: 50px;
+ text-align: center;
+}
+
+.box_input button:hover{
+    background: white;
+    font-size: 30px;
+}    
+
+.box_input button a{
+ text-decoration: none;
+ color: black;
+}
+
 .box_form p{
     color: white;
-    font-size: 25px;
+    font-size: 18px;
     width: 100%;
+    letter-spacing: 1px; 
+    line-height:40px; 
 
 }
 
-.box_form span{
+.box_form p a{
     color: orange;
+    text-decoration: none;
+    transition: 0.8s linear;
 }
 
+.box_form p a:hover{
+    font-size: 20px;
+}
 
 footer{
     height: 80px;

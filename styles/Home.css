@@ -5,12 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-header{
-    height: 50px;
-     width: 100%;
-     background: blue;  
-}
-
 /* 1 */
 main{
     width: 100%;
@@ -193,8 +187,4 @@ letter-spacing: 2px;
 
 
 
-footer{
-    height: 80px;
-    background: black;
-}
 

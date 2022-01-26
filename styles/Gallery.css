@@ -4,11 +4,6 @@
     margin: 0;
 
 }
-header{
-    height: 50px;
-    width: 100%;
-    background: blue;  
-}
 
 main{
     width: 100%;
@@ -65,8 +60,3 @@ main{
 
 
 
-
-footer{
-    height: 80px;
-    background: black;
-}

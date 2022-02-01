@@ -11,7 +11,7 @@
     width: 100%;
     height: 150vh;
     /* border: 2px solid green; */
-    /* background:url(../images/3.jpg) center; */
+    background:url(../images/3.jpg) center;
     background-size: cover;
     padding-top: 30px;
     
@@ -39,7 +39,7 @@
 {
     display: flex;
     justify-content: center;
-    border: 2px black solid;
+    /* border: 2px black solid; */
     margin-top: 10px;
     margin-bottom: 10px;
 
@@ -47,12 +47,18 @@
 
 /* form */
 .container_2 form{
-border: 2px green solid;
+/* border: 2px green solid; */
+background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+border-radius: 15px;
+border: 3px solid orange;
+padding: 25px;
 margin-right: 50px;
 }
 
 form h1{
+    color: white;
     text-align: center;
+    margin-bottom: 20px;
 
 }
 
@@ -79,7 +85,10 @@ form h1{
     font-size: 16px;
     padding: 10px;
     outline: none;
+    color: white;
 }
+
+
 
 .input_box textarea{
     margin-top: 5px;
@@ -91,33 +100,107 @@ form h1{
     font-size: 16px;
     padding: 10px;
     outline: none;
+    width: 100%;
 }
-
-
 
 .input_box button{
     background: orange;
     border:none;
     padding: 10px;
     border-radius: 10px;
+    width: 160px;
+    height: 40px;
+
 }
 
+.input_box button a{
+    font-size: 16px;
+    
+}
 
 
 
 /* info */
 .container_2 .info{
-    border: 2px green solid;
+    /* border: 2px green solid; */
+    background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+border-radius: 15px;
+border: 3px solid orange;
+padding: 25px;
+
 }
+
+.info h1{
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.info .info_box div{
+    /* border: 2px solid green; */
+    margin-bottom:20px;
+    display: flex;
+    align-items: center;
+}
+
+.info .info_box div span{
+    color: black;
+    background: orange;
+    font-size: 25px;
+    width: 40px;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 50%; 
+   margin-right:15px;
+}
+
+.info .info_box div span:hover{
+    color: orange;
+    background: black;
+   transition: 0.5s linear;
+}
+
+.info .info_box div a{
+    color: white;
+   text-decoration: none;
+   font-size: 16px;
+
+}
+
+.social_media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+   
+}
+
+.social_media li{
+    margin-top: 30px;
+    list-style: none;
+    margin: 10px;
+}
+
+.social_media li a{
+color: orange;
+font-size: 30px;
+}
+
+.social_media li a:hover{
+    color:white;
+}
+
 
 /* map */
 .container_2 .map{
-    border: 2px green solid;
+    /* border: 2px green solid; */
 }
 
 /*container_3  */
 .container_3{
     display: flex;
     justify-content:center;
-    border: 2px black solid;
+    border: 2px yellow solid;
 }

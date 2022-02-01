@@ -56,7 +56,8 @@
                     <div class="row">
                         <div class="input_box">
                             <span>Message</span><br>
-                            <input type="text" placeholder="Write your message here..."><br>
+                            <textarea placeholder="Write your message here..."></textarea>
+
                         </div>
                     </div>
                     <div class="row">
@@ -74,24 +75,31 @@
                 <div class="info">
                     <h1>Contact info</h1><br>
                     <!-- icon map -->
-                    <span>
-                        <ion-icon name="map-outline"></ion-icon>
-                    </span>
-                    <a>new york,USA</a><br>
-                    <!-- icon email -->
-                    <span>
-                        <ion-icon name="mail-outline"></ion-icon>
-                    </span>
-                    <a>lorem@gmail.com</a><br>
-                    <!-- icon phone -->
-                    <span>
-                        <ion-icon name="call-outline"></ion-icon>
-                    </span>
-                    <a>+91 987 654 3210</a><br>
+                    <div class="info_box">
+                        <div>
+                            <span>
+                                <ion-icon name="map"></ion-icon>
+                            </span>
+                            <a>new york,USA</a><br>
+                        </div>
 
+                        <!-- icon email -->
+                        <div>
+                            <span>
+                                <ion-icon name="mail"></ion-icon>
+                            </span>
+                            <a href="mailto:lorem@gmail.com">lorem@gmail.com</a><br>
+                        </div>
+                        <!-- icon phone -->
+                        <div>
+                            <span>
+                                <ion-icon name="call"></ion-icon>
+                            </span>
+                            <a href="tel:+91 987 654 3210">+91 987 654 3210</a><br>
+                        </div>
+                    </div>
                     <!--social_meadia -->
-                    <div class="social_meadia">
-                        <ul>
+                        <ul class="social_media">
                             <li><a href="#">
                                     <ion-icon name="logo-facebook"></ion-icon>
                                 </a></li>
@@ -105,8 +113,6 @@
                                     <ion-icon name="logo-twitter"></ion-icon>
                                 </a></li>
                         </ul>
-
-                    </div>
 
                 </div>
 

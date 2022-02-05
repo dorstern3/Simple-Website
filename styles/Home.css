@@ -8,7 +8,8 @@
 /* 1 */
 main{
     width: 100%;
-    height: 120vh;
+    height: auto;
+    padding-bottom: 30%;
     background:linear-gradient(rgba(0,0,0,0.4),50%,rgba(0, 0, 0, 0.4)50%),url(../images/1.jpg);
     background-size:cover;
     background-size:center;
@@ -26,15 +27,18 @@ main{
 }
 /* 3 */
 .box_h1{
-    width: 40%;
+    width: 80%;
     height: auto;
     color: white;
     padding-left: 20px;
-    /* background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%); */
+    margin-left: 30px;
+    /* height: auto;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     border-radius: 15px;
-    padding: 20px;
-    /* border: 3px solid orange; */
-    /* margin-left: 10px; */
+    padding: 25px;
+    border: 3px solid orange; */
+    margin-top: 50px;
+    
 }
 
 .box_h1 h1{
@@ -94,7 +98,7 @@ letter-spacing: 2px;
 /* 3 */
 .box_form{
     width:20%;
-    height: 420px;
+    height: auto;
     background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     border-radius: 15px;
     padding: 25px;
@@ -102,7 +106,7 @@ letter-spacing: 2px;
     position: fixed;
     right: 30px; 
     top:50px; 
-    margin-top: 20px;
+    margin-top: 50px;
    
 }
 
@@ -185,6 +189,67 @@ letter-spacing: 2px;
 }
 
 
+/* responsive */
+@media screen and (max-width:1024px) {
 
+    .countainer {
+        flex-direction: column;
+    }
 
+    .responsive_box_form{
+        display: flex;
+    justify-content: center;
 
+    }
+
+    .responsive_box_h1{
+        display: flex;
+        justify-content: center;
+    }
+
+    .box_h1{
+    width: 40%;
+    height: auto;
+    background: linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    border-radius: 15px;
+    padding: 25px;
+    border: 3px solid orange;
+    margin-left: 0%;
+    }
+
+    .box_form {
+        position: unset;
+        width: 40%;
+    }
+
+    .box_h1 h1{
+   text-align: center;
+}
+
+.responsive_p{
+    display: flex;
+    justify-content: center;
+
+}
+
+.box_h1 p{
+    padding-right: 0;
+    text-align: -webkit-center;
+}
+
+.responsive_btn{
+display: flex;
+    justify-content: center;
+}
+
+}
+
+@media screen and (max-width:480px){
+    .box_h1{
+        width: 80%;
+    }
+
+    .box_form {
+        width: 80%;
+    }
+}

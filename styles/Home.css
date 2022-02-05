@@ -244,6 +244,16 @@ display: flex;
 
 }
 
+@media screen and (max-width:768px) {
+    .box_h1{
+        width: 50%;
+    }
+
+    .box_form {
+        width: 50%;
+    }
+}
+
 @media screen and (max-width:480px){
     .box_h1{
         width: 80%;

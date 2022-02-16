@@ -179,7 +179,6 @@ padding: 25px;
 
 .social_media{
     display: flex;
-    margin-top: 30px;
     flex-direction: column;
     align-items: center;
     
@@ -200,6 +199,7 @@ cursor: pointer;
 
 .social_media li a:hover{
     color:white;
+    transition: 0.5s linear;
 }
 
 

@@ -106,7 +106,7 @@ letter-spacing: 2px;
     position: fixed;
     right: 30px; 
     top:50px; 
-    margin-top: 50px;
+    
    
 }
 
@@ -220,6 +220,7 @@ letter-spacing: 2px;
     .box_form {
         position: unset;
         width: 40%;
+        margin-top: 50px;
     }
 
     .box_h1 h1{

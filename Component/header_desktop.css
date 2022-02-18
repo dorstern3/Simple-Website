@@ -6,12 +6,11 @@
 
 }
 
-body{
-    background-color: #000000;
-}
+
 
 .navbar{
     height: 100%;
+    overflow-x:hidden ;
     /* border: 2px solid green; */
     width: 200px;
     position: fixed;
@@ -22,6 +21,7 @@ body{
     background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     border: 3px solid orange;
     padding: 30px;
+    background-color: black;
 }
 
 

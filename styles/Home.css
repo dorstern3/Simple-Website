@@ -21,7 +21,6 @@ main{
     height: auto;
     margin: auto; 
     display: flex;
-    justify-content: space-between;
     /* padding-top: 20px;   */
     /* border: 10px solid green;  */
 }
@@ -97,15 +96,13 @@ letter-spacing: 2px;
 
 /* 3 */
 .box_form{
-    width:20%;
+    width:80%;
     height: auto;
     background:linear-gradient(to top,rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
     border-radius: 15px;
     padding: 25px;
     border: 3px solid orange;
-    position: fixed;
-    right: 30px; 
-    top:50px; 
+    margin-top: 50px;
     
    
 }
@@ -164,7 +161,6 @@ letter-spacing: 2px;
 
 .box_form .btn:hover{
     background: white;
-    font-size: 25px;
 }
 
 .box_form p{
@@ -180,12 +176,6 @@ letter-spacing: 2px;
 .box_form p a{
     text-decoration: none;
     color: orange;
-}
-
-.box_form p a:hover{
-    transition: 0.8s linear;
-    font-size: 20px;
-    
 }
 
 

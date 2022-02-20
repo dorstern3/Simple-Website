@@ -24,7 +24,7 @@ cursor: pointer;
     height: 100%;
     overflow-x:hidden ;
     /* border: 2px solid green; */
-    width: 200px;
+    display: none;
     position: fixed;
     z-index: 1;
     top: 0;

@@ -14,6 +14,7 @@ main{
    
     background-image: linear-gradient(to right, black , orange);
   
+    padding-right: 10%;
 }
 
 .box_h1{

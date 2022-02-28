@@ -3,16 +3,11 @@ console.log("hello word");
 
 function opennavbar(){
   
-    document.getElementById("navbar").style.display="block";
-    document.getElementById("navbar").style.width = "100%";
-
-    
-    
+    document.getElementById("navbar_mobile").style.display="block";
+    document.getElementById("navbar_mobile").style.width = "100%";
+   
 }
 
 function closenavbar(){
-    document.getElementById("navbar").style.display="none";
-    document.getElementById("main").style.marginRight = "0";
-    
-
+    document.getElementById("navbar_mobile").style.display="none";
 }

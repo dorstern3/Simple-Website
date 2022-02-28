@@ -20,7 +20,7 @@ cursor: pointer;
 }
 
 
-.navbar{
+.navbar_mobile{
     height: 100%;
     overflow-x:hidden ;
     /* border: 2px solid green; */
@@ -106,5 +106,14 @@ transition: 0.5s linear;
 }
 
 
+@media screen and (min-width:1200px) {
+    .open_box{
+        display: none;
+    }
+    
+    .navbar_mobile{
+        display: none;
+    }
 
+ }
 

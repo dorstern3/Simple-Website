@@ -84,3 +84,8 @@ color:white;
 transition: 0.5s linear;
 }
 
+@media screen and (max-width:1200px) {
+   .navbar{
+       display: none;
+   } 
+}

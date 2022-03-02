@@ -9,7 +9,7 @@
 main{
     width: 100%;
     height: auto;
-    padding-bottom: 30%;
+    padding-bottom: 20%;
     background:linear-gradient(rgba(0,0,0,0.4),50%,rgba(0, 0, 0, 0.4)50%),url(../images/1.jpg);
     background-size:cover;
     background-size:center;
@@ -236,6 +236,11 @@ display: flex;
 }
 
 @media screen and (max-width:768px) {
+
+    main{
+        padding-bottom: 50px;
+    }
+
     .box_h1{
         width: 50%;
     }
@@ -244,8 +249,14 @@ display: flex;
         width: 50%;
     }
 }
+    
 
 @media screen and (max-width:480px){
+    
+    main{
+        padding-bottom: 50px;
+    }
+    
     .box_h1{
         width: 80%;
     }
@@ -253,4 +264,6 @@ display: flex;
     .box_form {
         width: 80%;
     }
+
+   
 }

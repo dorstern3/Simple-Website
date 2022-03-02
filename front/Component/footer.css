@@ -124,6 +124,7 @@ footer{
 .send_message h1{
     color: orange;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .send_message .icon{
@@ -171,9 +172,20 @@ footer{
 
 /* responsive */
 @media screen and (max-width:768px) {
+
+    footer{
+        padding:0px;
+        padding-bottom: 30px;
+        
+    }
+
     .container_f{
-        flex-direction: column;
+    flex-direction: column;
     align-items: center;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+    padding: 25px;
 }
 
 .fast_navigation
@@ -196,6 +208,15 @@ footer{
 
 @media screen and (max-width:480px) {
     
+    footer{
+        padding:0px;
+        padding-bottom: 30px;
+        
+    }
+
+    .container_f{
+        width: 80%;
+    }
 }
 
 

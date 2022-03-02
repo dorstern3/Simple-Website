@@ -239,6 +239,7 @@ display: flex;
 
     main{
         padding-bottom: 50px;
+        background: rgba(0,0,0,0.4);
     }
 
     .box_h1{
@@ -253,7 +254,7 @@ display: flex;
 
 @media screen and (max-width:480px){
     
-    main{
+main{
         padding-bottom: 50px;
     }
     

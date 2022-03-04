@@ -11,8 +11,7 @@ main{
     height: auto;
     padding-bottom: 10%;
     font-family: Arial, Helvetica, sans-serif;
-   
-    background-image: linear-gradient(to right, black , orange);
+    background-image: linear-gradient(orange,black)  ;
   
 }
 
@@ -265,6 +264,8 @@ color: white
     }
 
 
+      
+
     /* responsive */
 
     @media screen and (min-width:1200px){
@@ -274,6 +275,10 @@ color: white
     }
 
     @media screen and (max-width:1200px) {
+
+       header .open_box{
+            background-color: black;
+        }
 
         /* .container1 */
         .container_1{
@@ -354,8 +359,14 @@ color: white
 
     @media screen and (max-width:480px)
    {
+
+    .box_h1{
+        width: 100%;
+    }
+
     .box_h1 h1{
         font-size: 30px;
+        
     }
     
     .box_about_1{
@@ -371,6 +382,18 @@ color: white
     .box_about_3{
         padding-right:50px;
         padding-left:50px;
+    }
+
+    .box_image_1 img{
+        width: 300px;
+    }
+
+    .box_image_2 img{
+        width: 300px;
+    }
+
+    .box_image_3 img{
+        width: 300px;
     }
 
     }

@@ -16,7 +16,7 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.http import HttpResponse
-from numpy import pad
+
 
 def home(request):
     return HttpResponse('home page')

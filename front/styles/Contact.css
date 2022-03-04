@@ -10,7 +10,7 @@
 .main{
     width: 100%;
     height: auto;
-    padding-bottom: 40px;
+    padding-bottom: 10%;
     /* border: 2px solid green; */
     background:url(../images/3.jpg) center;
     background-size: cover;
@@ -226,6 +226,12 @@ map iframe{
 
 
 /* responsive */
+
+@media screen and (min-width:1200px){
+    main{
+         padding-right: 15%;
+    }
+}
  @media screen and (max-width:1200px){
     .container_2{
         display: flex;
@@ -252,6 +258,10 @@ map iframe{
 
 
 @media screen and (max-width:768px){
+
+    .main{
+        background: black;
+    }
     .container_2{
          display: flex;
          flex-wrap: wrap;  

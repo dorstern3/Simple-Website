@@ -1,6 +1,7 @@
 <h1>form try</h1>
 <hr>
-<form action="" method="post">
-    {{form}}
+<form  method="post" action="">
+    {% csrf_token %}
+<input type="text">
     <input type="submit">
 </form>

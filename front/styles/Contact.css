@@ -177,27 +177,34 @@ padding: 25px;
 
 }
 
-.social_media{
+.social_media_contact
+{
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.social_media_contact{
+    display: flex;
+    /* flex-direction: column; */
     align-items: center;
     
    
 }
 
-.social_media li{
+.social_media_contact li{
     margin-top: 30px;
     list-style: none;
     margin: 10px;
 }
 
-.social_media li a{
+.social_media_contact li a{
 color: orange;
 font-size: 30px;
 cursor: pointer;
 }
 
-.social_media li a:hover{
+.social_media_contact li a:hover{
     color:white;
     transition: 0.5s linear;
 }

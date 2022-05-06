@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../styles/Contact.css" rel="stylesheet">
+    <!-- warpper -->
+    <link href="../Component/wrapper/Wcontact.css" rel="stylesheet">
 
     <!-- header_Desktop -->
     <link href="../Component/header_desktop.css" rel="stylesheet">
@@ -66,40 +68,42 @@
         </div>
 
         <!-- header_Desktop -->
-        <div class="navbar">
+        <div class="wrapper">
+            <div class="navbar">
 
-            <!-- logo -->
-            <div class="logo">
-                <h1>logo</h1>
-            </div>
+                <!-- logo -->
+                <div class="logo">
+                    <h1>logo</h1>
+                </div>
 
-            <!-- Menu -->
-            <div class="menu">
-                <ul>
-                    <li><a href="../pages/Home.html">Home</a></li>
-                    <li><a href="../pages/About.html">About</a></li>
-                    <li><a href="../pages/Contact.html">Contact</a></li>
-                    <li><a href="../pages/SignUp.html">Sign up</a></li>
-                    <li><a href="../pages/Gallery.html">Gallery</a></li>
+                <!-- Menu -->
+                <div class="menu">
+                    <ul>
+                        <li><a href="../pages/Home.html">Home</a></li>
+                        <li><a href="../pages/About.html">About</a></li>
+                        <li><a href="../pages/Contact.html">Contact</a></li>
+                        <li><a href="../pages/SignUp.html">Sign up</a></li>
+                        <li><a href="../pages/Gallery.html">Gallery</a></li>
 
+                    </ul>
+                </div>
+
+                <!--social_meadia -->
+                <ul class="social_media">
+                    <li><a href="#">
+                            <ion-icon name="logo-facebook"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </a></li>
+                    <li><a href="#">
+                            <ion-icon name="logo-twitter"></ion-icon>
+                        </a></li>
                 </ul>
             </div>
-
-            <!--social_meadia -->
-            <ul class="social_media">
-                <li><a href="#">
-                        <ion-icon name="logo-facebook"></ion-icon>
-                    </a></li>
-                <li><a href="#">
-                        <ion-icon name="logo-instagram"></ion-icon>
-                    </a></li>
-                <li><a href="#">
-                        <ion-icon name="logo-whatsapp"></ion-icon>
-                    </a></li>
-                <li><a href="#">
-                        <ion-icon name="logo-twitter"></ion-icon>
-                    </a></li>
-            </ul>
         </div>
     </header>
 
@@ -217,71 +221,74 @@
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
         <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+    </main>
+    <!-- FOOTER -->
+    <footer>
+        <div class="container_f">
+            <!-- fast_navigation -->
+            <div class="fast_navigation">
+                <h1>Fast Navigation</h1>
+                <ul>
+                    <li><a href="../pages/Home.html">Home</a></li>
+                    <li><a href="../pages/About.html">About</a></li>
+                    <li><a href="../pages/Contact.html">Contact</a></li>
+                    <li><a href="../pages/SignUp.html">Sign up</a></li>
+                    <li><a href="../pages/Gallery.html">Gallery</a></li>
+                </ul>
+            </div>
 
-        <footer>
-            <div class="container_f">
-                <!-- fast_navigation -->
-                <div class="fast_navigation">
-                    <h1>Fast Navigation</h1>
-                    <ul>
-                        <li><a href="../pages/Home.html">Home</a></li>
-                        <li><a href="../pages/About.html">About</a></li>
-                        <li><a href="../pages/Contact.html">Contact</a></li>
-                        <li><a href="../pages/SignUp.html">Sign up</a></li>
-                        <li><a href="../pages/Gallery.html">Gallery</a></li>
-                    </ul>
+            <!-- contact_us -->
+            <div class="contact_us">
+                <h1>Contact Us</h1>
+
+                <!-- icon map -->
+
+                <div class="icon">
+                    <span>
+                        <ion-icon name="map"></ion-icon>
+                    </span>
+                    <a href="#">new york,USA</a><br>
                 </div>
 
-                <!-- contact_us -->
-                <div class="contact_us">
-                    <h1>Contact Us</h1>
-
-                    <!-- icon map -->
-
-                    <div class="icon">
-                        <span>
-                            <ion-icon name="map"></ion-icon>
-                        </span>
-                        <a href="#">new york,USA</a><br>
-                    </div>
-
-                    <!-- icon email -->
-                    <div class="icon">
-                        <span>
-                            <ion-icon name="mail"></ion-icon>
-                        </span>
-                        <a href="mailto:lorem@gmail.com">lorem@gmail.com</a><br>
-                    </div>
-
-                    <!-- icon phone -->
-                    <div class="icon">
-                        <span>
-                            <ion-icon name="call"></ion-icon>
-                        </span>
-                        <a href="tel:+91 987 654 3210">+91 987 654 3210</a><br>
-                    </div>
+                <!-- icon email -->
+                <div class="icon">
+                    <span>
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <a href="mailto:lorem@gmail.com">lorem@gmail.com</a><br>
                 </div>
 
-                <!-- send_message -->
-                <div class="send_message">
-                    <h1>Send A Message</h1>
-
-                    <div class="icon">
-                        <span>
-                            <ion-icon name="mail"></ion-icon>
-                        </span>
-                        <input type="text" placeholder="Enter your message..." required>
-
-                        <!-- arrow icon -->
-                        <span class="cursor">
-                            <ion-icon name="arrow-forward-outline"></ion-icon>
-                        </span>
-                    </div>
+                <!-- icon phone -->
+                <div class="icon">
+                    <span>
+                        <ion-icon name="call"></ion-icon>
+                    </span>
+                    <a href="tel:+91 987 654 3210">+91 987 654 3210</a><br>
                 </div>
             </div>
 
+            <!-- send_message -->
+            <div class="send_message">
+                <h1>Send A Message</h1>
+
+                <div class="icon">
+                    <span>
+                        <ion-icon name="mail"></ion-icon>
+                    </span>
+                    <input type="text" placeholder="Enter your message..." required>
+
+                    <!-- arrow icon -->
+                    <span class="cursor">
+                        <ion-icon name="arrow-forward-outline"></ion-icon>
+                    </span>
+                </div>
             </div>
-        </footer>
+        </div>
+
+        </div>
+    </footer>
 </body>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </html>

@@ -1,0 +1,9 @@
+.wrapper{
+    height: 670px;
+    margin: 0;
+    /* border: 5px solid red; */
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: calc(450px+20vw);
+}

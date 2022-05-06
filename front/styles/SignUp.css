@@ -137,6 +137,10 @@ main{
 
 /* responsive */
 @media screen and (max-width:1200px) {
+    main{
+        background: black;
+    
+    }
     .border {
         width: 50%;
     }

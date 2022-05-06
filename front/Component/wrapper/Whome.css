@@ -1,0 +1,8 @@
+.wrapper{
+    height: 750px;
+    margin: 0;
+    /* border: 5px solid red; */
+    position: absolute;
+    top: 0;
+    right: 0;
+}

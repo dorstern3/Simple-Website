@@ -1,2 +1,6 @@
 # Simple-Website
-HTML &amp; CSS &amp; JS
+Front: HTML &amp; CSS &amp; JS
+
+Back: Django
+
+DB: MySQL

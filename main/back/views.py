@@ -1,5 +1,5 @@
 from django.shortcuts import render , redirect
-
+from django.http import HttpResponse
 # Create your views here.
-def component(request):
-    return render(request, 'home.html')
+def Home(request):
+    return render(request,'Home.html')

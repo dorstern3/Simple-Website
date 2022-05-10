@@ -17,3 +17,11 @@ def About(request):
 # Contact page
 def Contact(request):
     return render(request,'Contact.html')
+
+# ThankYouPageSignIn page
+def ThankYouPageSignIn(request):
+    return render(request,'ThankYouPageSignIn.html')
+
+# ThankYouPageSignUp page
+def ThankYouPageSignUp(request):
+    return render(request,'ThankYouPageSignUp.html')

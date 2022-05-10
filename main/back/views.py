@@ -9,3 +9,11 @@ def Home(request):
 # SignUp page
 def SignUp(request):
     return render(request,'SignUp.html')
+
+# About page
+def About(request):
+    return render(request,'About.html')
+
+# Contact page
+def Contact(request):
+    return render(request,'Contact.html')

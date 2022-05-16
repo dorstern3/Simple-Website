@@ -115,16 +115,17 @@
             </div>
 
             <!-- form register Django -->
-            <form>
+            <form action="" method="POST">
+                {%csrf_token%}
                 <div class="box_form">
                     <div class="border">
                         <h1>Create an account</h1>
                         <div class="box_input">
-                            <input type="text" placeholder="Username"> <br>
-                            <input type="email" placeholder="Email"><br>
-                            <input type="password" placeholder="Password"><br>
-                            <input type="password" placeholder="Continue Password"><br>
-                            <button><a href="/ThankYouPageSignUp">Sign up</a></button>
+                            <input type="text" placeholder="Username"  name="username"> <br>
+                            <input type="email" placeholder="Email" name="email"><br>
+                            <input type="password" placeholder="Password" name="password1"><br>
+                            <input type="password" placeholder="Continue Password" name="password2"><br>
+                            <button type="submit"><a>Sign up</a></button>
                             <p>have an accout?<br>
                                 Click and <a href="/">sign in</a>
                             </p>

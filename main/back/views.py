@@ -8,9 +8,10 @@ from django.contrib.auth.forms import UserCreationForm
 # Email
 from .forms import UserRegisterEmail
 
+# SubscribeForm
+from .forms import SubscribeForm
+
 # Create your views here.
-
-
 
 # SignUp page
 def SignUp(request):
@@ -75,15 +76,33 @@ def Home(request):
             return render(request,'Home.html')
     
 
+# Contact page
+def Contact(request):
+    if request.method == "GET":
+        print("that request.method GET")
+        return render(request,'Contact.html')
+
+    if request.method == "POST":
+        print("that request.method POST")
+        sub=SubscribeForm(request.POST)
+        print(sub.errors)
+        if sub.is_valid():
+            print("sub valid")
+            sub.save()
+            print("sub.save")
+            return redirect('Contact')
+        else:
+            print("sub not valid")
+            return render(request,'Contact.html')
+
+
+
+
 
 
 # About page
 def About(request):
     return render(request,'About.html')
-
-# Contact page
-def Contact(request):
-    return render(request,'Contact.html')
 
 # ThankYouPageSignIn page
 def ThankYouPageSignIn(request):

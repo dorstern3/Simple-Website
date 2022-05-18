@@ -163,16 +163,18 @@
 
 
                 <!-- form -->
-                <form>
+                <!-- form Contact Django --> 
+                <form action="" method="POST">
+                    {%csrf_token%}
                     <h1>Send a Message</h1>
                     <div class="row">
                         <div class="input_box">
                             <span>First Name</span><br>
-                            <input type="text" placeholder="Dor"><br>
+                            <input type="text" placeholder="Dor" name="first_name"><br>
                         </div>
                         <div class="input_box">
                             <span>Last Name</span><br>
-                            <input type="text" placeholder="Stern"><br>
+                            <input type="text" placeholder="Stern" name="last_name"><br>
                         </div>
 
                     </div>
@@ -180,24 +182,24 @@
                     <div class="row">
                         <div class="input_box">
                             <span>Email</span><br>
-                            <input type="email" placeholder="lorem@email.com"><br>
+                            <input type="email" placeholder="lorem@email.com" name="email"><br>
                         </div>
                         <div class="input_box">
                             <span>Phone</span><br>
-                            <input type="number" placeholder="+91 987 654 3210"><br>
+                            <input type="number" placeholder="+91 987 654 3210" name="phone"><br>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input_box">
                             <span>Message</span><br>
-                            <textarea placeholder="Write your message here..."></textarea>
+                            <textarea placeholder="Write your message here..." name="message"></textarea>
 
                         </div>
                     </div>
                     <div class="row">
                         <div class="input_box">
                             <div class="center">
-                                <button><a>Send</a></button>
+                                <button type="submit"><a>Send</a></button>
                             </div>
                         </div>
                     </div>

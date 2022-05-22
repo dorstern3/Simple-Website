@@ -72,3 +72,69 @@ border: 3px solid black;
 .btn a:hover{
     color: black;
 }
+
+/* responsive */
+@media screen and (max-width:1200px) {
+    .container{
+        margin:auto;
+        /* border: 2px solid blue; */
+        background-color: orange;
+        height: 500px;
+        width: 800px;
+        animation:container;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .container{
+        margin:auto;
+        /* border: 2px solid blue; */
+        background-color: orange;
+        height: 500px;
+        width: 600px;
+        animation:container;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+    }
+}
+
+@media screen and (max-width:480px) {
+    main
+{
+    margin:auto;
+    /* border: 2px solid green; */
+    background-color: black;
+    padding: 50px;
+    animation:main;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.container{
+    margin:auto;
+    /* border: 2px solid blue; */
+    background-color: orange;
+    height: 500px;
+    width: 300px;
+    animation:container;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+.display_h1_box{
+    /* border: 2px solid black; */
+    width: 80%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    animation:display_h1_box;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    }
+}

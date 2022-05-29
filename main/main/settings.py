@@ -130,7 +130,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
 
-STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles') #HEROKU
+# STATIC_ROOT=os.path.join(BASE_DIR,'staticfiles') #HEROKU
+STATIC_ROOT=[os.path.join(BASE_DIR, 'static'),
+                    os.path.join(BASE_DIR, 'static/Component'),
+                    os.path.join(BASE_DIR, 'static/Component/wrapper'),
+                    os.path.join(BASE_DIR, 'static/images'),
+                    os.path.join(BASE_DIR, 'static/styles')] #HEROKU
 STATIC_URL = 'static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static'),
                     os.path.join(BASE_DIR, 'static/Component'),

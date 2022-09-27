@@ -1,9 +1,9 @@
 # Simple-Website
-- Front: Html &amp; CSS &amp; JS
+- **Front:** Html &amp; CSS &amp; JS
 
-- Back: Django
+- **Back:** Django
 
-- DB: Mysql
+- **DB:** Mysql
 
 ## Install:
 - python -m pip install Django

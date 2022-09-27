@@ -5,5 +5,5 @@ Back: Django
 
 DB: Mysql
 
-## Install
+## Install:
 python -m pip install Django

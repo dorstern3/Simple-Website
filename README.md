@@ -4,7 +4,7 @@
 - **Back:** Django
 
 - **DB:** Mysql
-- 
+
 ## View:
 ### Desktop:
 

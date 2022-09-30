@@ -10,7 +10,7 @@
 
 
 - ### Mobile (Responsive):
-https://user-images.githubusercontent.com/96941609/193336322-9916413d-9d81-4dba-918e-2649defb3ee1.mp4
+https://user-images.githubusercontent.com/96941609/193336939-a3b5e6ca-b4c5-434c-8a1a-9d750b4ec8b1.mp4
 
 ## Install:
 - python -m pip install Django

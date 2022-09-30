@@ -5,5 +5,9 @@
 
 - **DB:** Mysql
 
+###Desktop:
+
+###Mobile (Responsive):
+
 ## Install:
 - python -m pip install Django
